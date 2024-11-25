@@ -1,1 +1,3 @@
 # SemVal-Task-2025
+
+This repository contains resources and instructions for the second assignment in the Practical Data Science course. The goal of the assignment is to participate in the Food Hazard Detection Challenge, where participants analyze provided datasets to identify food hazards. The assignment involves performing benchmark analyses on both short texts (headlines) and long texts using machine learning algorithms, evaluating the results.
