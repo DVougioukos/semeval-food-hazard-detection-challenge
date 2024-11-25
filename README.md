@@ -1,4 +1,4 @@
-# SemVal-Task-2025
+# SemEval Food Hazard Detection Challenge
 
 This repository contains resources and instructions for the second assignment in the Practical Data Science course. The scope of the assignment is to participate in the [Food Hazard Detection Challenge](https://food-hazard-detection-semeval-2025.github.io/ "link"), where participants analyze provided datasets to identify food hazards. The assignment involves performing benchmark analyses on both short texts (titles) and long texts (texts) using machine learning algorithms and evaluating the results.
 
