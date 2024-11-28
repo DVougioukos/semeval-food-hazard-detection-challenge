@@ -56,3 +56,22 @@ Based on my submissions and up to the date of 28-11-2024, i received the followi
 - Subtask 2
     - Score: 0.4208
     - Rank: 5
+
+## How to run
+
+To run the repository and notebooks locally follow the steps below:
+
+1. Clone the repository
+
+    git clone <repository-url>
+
+Replace <repository-url> with the actual URL of the repository.
+
+3. Create a virtual environment and activate it
+
+    python -m venv venv
+    .\venv\Scripts\activate
+
+2. Install dependencies
+
+    pip install -r requirements.txt
