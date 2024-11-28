@@ -67,7 +67,7 @@ To run the repository and notebooks locally follow the steps below:
 git clone <repository-url>
 ```
 
-Replace <repository-url> with the actual URL of the repository.
+Replace ```<repository-url>``` with the actual URL of the repository.
 
 2.Create a virtual environment and activate it
 
