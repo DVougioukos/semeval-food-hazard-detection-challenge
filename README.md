@@ -1,7 +1,6 @@
 # SemEval Food Hazard Detection Challenge
 
-This repository contains resources and instructions for the second assignment in the Practical Data Science course. The scope of the assignment is to participate in the [Food Hazard Detection Challenge](https://food-hazard-detection-semeval-2025.github.io/ "Link"), where participants analyze provided datasets to identify food hazards. The assignment involves performing benchmark analyses on both short texts and long texts provided by the training dataset using machine learning algorithms and evaluating the results.
-
+This repository contains resources and instructions for the second assignment in the Practical Data Science course. The scope of the assignment is to participate in the [Food Hazard Detection Challenge](https://food-hazard-detection-semeval-2025.github.io/ "Link"), where participants analyze provided datasets to identify food hazards. The assignment involves performing benchmark analyses on both short texts ('title' column) and long texts ('text' column) provided by the training dataset using machine learning algorithms and evaluating the results.
 
 ## Assignment
 
@@ -28,32 +27,32 @@ The task is to apply and evaluate traditional and advanced machine learning algo
 
 ## Benchmark Analyses Description
 
-For the benchamark analyses on both text types, I select and evaluate 3 machine learning algorithms, which are Logistic Regresion, XGBoost and BERT-RoBERTa. As you can observe in the included notebooks, in all models i tried as much as i could considering my computational resources, to adjust the hyperparameters and take into account the extreme class imbalance situation. In each task it is possible to change the training strategy (hyperparameters, etc.) due to the distribution of labels in them and my computational resources as i mentioned again. 
+For the benchamark analyses on both text types, i select and evaluate 3 machine learning algorithms, which are Logistic Regresion, XGBoost and BERT-RoBERTa model. As you can observe in the included notebooks, in all models i tried as much as i could, considering my computational resources, to adjust the hyperparameters and take into account the extreme class imbalance situation. In each task it is possible to change the training strategy (hyperparameters to tune, etc.) due to the distribution of labels in them and my computational resources, as i mentioned again. 
 
-After evaluating the models for each classification task i used the most robust ones and applied them to the validation dataset provided by the challenge. Below, we present the best models per classification task and based on which feature (short text ('title' column) or long text ('text' column)).The challenge evaluation method is based on the macro f1 metric, so I use the same metric to evaluate the performance of the models.
+After evaluating the models for each classification task i used the most robust ones and applied them to the validation dataset provided by the challenge. Below, we present the best models per classification task and based on which feature (short text ('title' column) or long text ('text' column)). Because, the classification tasks are highly unbalanced (as you can observe in the data_exploration notebook), I decided to use the macro f1 metric to evaluate the performance of the algorithms.
 
-In all cells of the notebooks, the code is run and its results are shown to easilt view the progress of the benchamrks. 
+In all cells of the notebooks, the code is executed and the results are displayed to easily track the progress of the benchamarks.
 
 - Detect hazard category
-    - Algorithm: 
-    - Feature: Text
+    - Algorithm: Logistic Regression
+    - Feature: Long text ('text' column)
 - Detect product category
-    - Algorithm:
-    - Feature: Text
+    - Algorithm: BERT-RoBERTa
+    - Feature: Long text ('text' column)
 - Detect hazard
-    - Algorithm:
-    - Feature: Text
+    - Algorithm: Logistic Regression
+    - Feature: Long text ('text' column)
 - Detect product
-    - Algorithm:
-    - Feature: Text
+    - Algorithm: Logistic Regression
+    - Feature: Long text ('text' column)
 
-## Leaderboard - Score - Rank
+## Leaderboard - Score - Ranking
 
-Based on my submissions and up to the date of 25-11-2024, i received the following score and ranking in the two subtasks of the challenge:
+Based on my submissions and up to the date of 28-11-2024, i received the following score and ranking in the two subtasks of the challenge:
 
 - Subtask 1
-    - Score:
-    - Rank:
+    - Score: 0.7520
+    - Rank: 6
 - Subtask 2
-    - Score:
-    - Rank: 
+    - Score: 0.4208
+    - Rank: 5
