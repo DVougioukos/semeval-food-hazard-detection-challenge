@@ -69,8 +69,8 @@ Replace <repository-url> with the actual URL of the repository.
 
 2.Create a virtual environment and activate it
 
-```python -m venv venv```
-```.\venv\Scripts\activate```
+```python -m venv venv
+.\venv\Scripts\activate
 
 3.Install dependencies
 
