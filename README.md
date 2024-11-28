@@ -61,17 +61,17 @@ Based on my submissions and up to the date of 28-11-2024, i received the followi
 
 To run the repository and notebooks locally follow the steps below:
 
-1. Clone the repository
+1.Clone the repository
 
-    git clone <repository-url>
+```git clone <repository-url>```
 
 Replace <repository-url> with the actual URL of the repository.
 
-3. Create a virtual environment and activate it
+2.Create a virtual environment and activate it
 
-    python -m venv venv
-    .\venv\Scripts\activate
+```python -m venv venv```
+```.\venv\Scripts\activate```
 
-2. Install dependencies
+3.Install dependencies
 
-    pip install -r requirements.txt
+```pip install -r requirements.txt```
