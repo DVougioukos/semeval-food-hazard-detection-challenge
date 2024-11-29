@@ -55,7 +55,7 @@ Based on my submissions and up to the date of 28-11-2024, i received the followi
     - Rank: 6
 - Subtask 2
     - Score: 0.4208
-    - Rank: 5
+    - Rank: 7
 
 ## How to run
 
