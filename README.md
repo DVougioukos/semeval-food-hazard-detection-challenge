@@ -48,7 +48,7 @@ In all cells of the notebooks, the code is executed and the results are displaye
 
 ## Leaderboard - Score - Ranking
 
-Based on my submissions and up to the date of 28-11-2024, i received the following score and ranking in the two subtasks of the challenge:
+Based on my submissions and up to the date of 29-11-2024, i received the following score and ranking in the two subtasks of the challenge:
 
 - Subtask 1
     - Score: 0.7520
